@@ -1,0 +1,58 @@
+body{
+  background-color: rgb(38, 41, 238);
+}
+.App{
+  background-color: rgb(255, 252, 248);
+  min-height: 500px;
+  width: 400px;
+  margin: 70px auto;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px 10px rgb(28, 31, 206);
+}
+#formdiv{
+  height: 70px;
+  width: 400px;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color:rgb(8, 143, 253) ;
+}
+#todo-form input{
+  background-color: rgb(95, 180, 250);
+  height: 50px;
+  width: 250px;
+  padding: 0 20px;
+  margin: 20px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 18px;
+  color:#000000;
+  cursor: pointer;
+}
+#todo-form input::placeholder{
+  color: #808080;
+}
+#todo-form input:focus{
+   outline: none;
+}
+.additem{
+  box-shadow: 1px 1px 4px 4px gray;
+}
+#todo-form button{
+  background-color: rgb(22, 28, 34);
+  height: 50px;
+  width: 50px;
+  border: 0;
+  border-radius: 10px;
+  margin-left: -8px;
+  color: #d6cfcf;
+  cursor: pointer;
+}
+#todo-form button:focus{
+  outline: none;
+}
+.add{
+  box-shadow: 1px 1px 4px 4px gray;
+}
